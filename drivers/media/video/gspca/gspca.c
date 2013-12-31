@@ -58,7 +58,8 @@ MODULE_LICENSE("GPL");
 #define DRIVER_VERSION_NUMBER	KERNEL_VERSION(2, 13, 0)
 
 #ifdef GSPCA_DEBUG
-int gspca_debug = D_ERR | D_PROBE;
+int gspca_debug = D_ERR | D_PROBE | D_USBI | D_USBO;
+/*int gspca_debug = D_ERR | D_PROBE;*/
 EXPORT_SYMBOL(gspca_debug);
 
 static void PDEBUG_MODE(char *txt, __u32 pixfmt, int w, int h)

@@ -11,6 +11,7 @@
 /* compilation option */
 /*#define GSPCA_DEBUG 1*/
 
+
 #ifdef GSPCA_DEBUG
 /* GSPCA our debug messages */
 extern int gspca_debug;

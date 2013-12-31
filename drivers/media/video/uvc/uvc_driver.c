@@ -113,6 +113,12 @@ static struct uvc_format_desc uvc_fmts[] = {
 		.guid		= UVC_GUID_FORMAT_RGBP,
 		.fcc		= V4L2_PIX_FMT_RGB565,
 	},
+    /*Ricky: support H.264 mapping*/
+    {
+        .name       = "H.264",
+        .guid       = UVC_GUID_FORMAT_H264,
+        .fcc        = V4L2_PIX_FMT_H264,
+     },
 };
 
 /* ------------------------------------------------------------------------
